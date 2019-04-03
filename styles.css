@@ -9,46 +9,54 @@ html {
 .nav_bar {
     background-color: #333333;
     padding: 20px 10%;
-    display: block;
     text-align: right;
 }
 .nav_bar a {
-    padding: 30px;
+    padding: 0 5px;
+    font-size: 20px;
     color: #ff0099;
 }
 .nav_bar img {
-    display: inline-block;
     float: left;
 }
-.title,
-p,
-dl {
-    padding: 0 10%;
-    line-height: 1.5;
-}
-dl dt {
-    padding 0 10%;
-    text-align: left;
-}
 .title {
-    font-family: 'Roboto', sans-serif;
-    margin: 30px 0;
+    padding: 0 10%;
+    font-family: 'Roboto';
+    font-weight: 600;
 }
 .separator {
     font-size: 18px;
-    width: 300px;
-    margin: 50px auto;
+    margin: 50px 0;
     text-align: center;
 }
-h1 {
-    font-size: 50px;
-    font-weight: bold;
+p {
+    padding: 0 10%;
+    margin: 10px 0;
+    line-height: 1.5;
 }
-h2 {
+h1.title {
+    font-size: 50px;
+    margin: 50px 0;
+}
+h2.title {
     font-size: 30px;
     color: #ff0099;
+    margin: 30px 0;
 }
-h3 {
+h3.title {
     font-size: 40px;
     text-align: center;
+    margin: 50px 0;
+}
+.term {
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: bold;
+    margin: 30px 0;
+    padding: 0 10%;
+}
+dl dd {
+    padding: 0 10%;
+    margin: 10px 0;
+    line-height: 1.5;
 }
