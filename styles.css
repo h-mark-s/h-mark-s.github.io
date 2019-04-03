@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-image: url("assets/background.png");
+    font-family: courier;
+}
+.nav_bar {
+    background-color: #333333;
+    padding: 20px 10%;
+    display: block;
+    text-align: right;
+}
+.nav_bar a {
+    padding: 30px;
+    color: #ff0099;
+}
+.nav_bar img {
+    display: inline-block;
+    float: left;
+}
+.title,
+p,
+dl {
+    padding: 0 10%;
+    line-height: 1.5;
+}
+dl dt {
+    padding 0 10%;
+    text-align: left;
+}
+.title {
+    font-family: 'Roboto', sans-serif;
+    margin: 30px 0;
+}
+.separator {
+    font-size: 18px;
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+h2 {
+    font-size: 30px;
+    color: #ff0099;
+}
+h3 {
+    font-size: 40px;
+    text-align: center;
+}
